@@ -1,0 +1,33 @@
+{
+    "name": "express-api-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon ./src/server.ts",
+        "build": "tsc --project ./src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jCarlo0s/express-api-example.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jCarlo0s/express-api-example/issues"
+    },
+    "homepage": "https://github.com/jCarlo0s/express-api-example#readme",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.12",
+        "@types/node": "^15.12.5",
+        "nodemon": "^2.0.9",
+        "ts-node": "^10.0.0",
+        "typescript": "^4.3.5"
+    }
+}
